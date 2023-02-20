@@ -3,13 +3,18 @@ import {Outlet, Link} from 'react-router-dom';
 
 import Logo from '../../assets/DBA.png';
 import './navigation.style.scss';
+import CartIcon from '../../components/cart-icon/cart-icon.components';
+import CartDropdown from '../../components/cart-dropdown/cart-dropdown.components';
+
 import { UserContext } from '../../contexts/user.contexts';
+import { CartContext } from '../../contexts/cart-context';
+
 import { signOutUser } from '../../util/firebase/firebase.utils';
 
 const Navigation = () => {
 
 const {currentUser} = useContext(UserContext);
-
+const {isCartOpen} = useContext(CartContext)
 
     return (
       <Fragment>
@@ -32,7 +37,9 @@ const {currentUser} = useContext(UserContext);
                 SIGN IN
                 </Link>)
             }
+            <CartIcon />
            </div>
+           {isCartOpen && <CartDropdown />}
         </div>
         <Outlet/>
       </Fragment>

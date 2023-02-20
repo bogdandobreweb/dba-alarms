@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Acvil Pro",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/c/a/camera-supraveghere-exterior-acvil-pro-acv-ef20-1080pl_-2-mp_-ir-20-m_-2.8-mm-01_2.jpg",
+      "price": 13
+    },
+    {
+      "id": 2,
+      "name": "Acvil Full Color",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/c/a/camera-supraveghere-exterior-acvil-full-color-acv-fc20-2m-2.0_-2-mp_-lumina-alba-20-m_-2.8-mm-1.jpg",
+      "price": 16
+    },
+    {
+      "id": 3,
+      "name": "Dahua HAC",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/c/a/camera-supraveghere-exterior-dahua-hac-hfw1200tl-0280b-s4_-2-mp_-ir-40-m_-2.8-mm-_-alimentator-cadou.jpg",
+      "price": 19
+    },
+    {
+      "id": 4,
+      "name": "WiFi Dahua",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/c/a/camera-supraveghere-exterior-ip-wireless-dahua-turret-ipc-t26ep_-2-mp_-ir-30-m_-2.8-mm_-sirena-incorporata_-microfon_-slot-card3.jpg",
+      "price": 49
+    },
+    {
+      "id": 5,
+      "name": "Acvil WIFI",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/1/_/1_79.jpg",
+      "price": 18
+    },
+    {
+      "id": 6,
+      "name": "WiFi Vstarcam",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/c/a/camera-supraveghere-ip-wireless-pt-vstarcam-c41_-2-mp_-ir-10-m_-3.6-mm_-slot-card_-microfon_-detectie-miscare-2.jpg",
+      "price": 14
+    },
+    {
+      "id": 7,
+      "name": "REOLINK GO",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/c/a/camera-supraveghere-gsm-4g-reolink-go_-2-mp_-ir-10-m_-7800-mah_-slot-card_-microfon-_-panou-solar-01_1_.jpg",
+      "price": 18
+    },
+    {
+      "id": 8,
+      "name": "Interior Dahua",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/c/a/camera-supraveghere-wireless-ip-wifi-interior-dahua-imou-rex-ipc-a46lp-d-4mp_-ir-10m_-3.6mm_-slot-card_-microfon-si-difuzor-1.jpg",
+      "price": 16
+    },
+    {
+      "id": 9,
+      "name": "Thinkware F70",
+      "imageUrl": "https://cdn.spy-shop.ro/media/catalog/product/cache/1/image/500x/e091ffec11a60d65790217806e67896c/c/a/camera-auto-cu-dvr-thinkware-f70_-2-mp_-fvdw_-wdr-1.jpg",
+      "price": 16
+    }
+  ]
+  
