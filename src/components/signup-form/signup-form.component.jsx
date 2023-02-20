@@ -4,6 +4,7 @@ import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth } from "
 
 import FormInput from "../input/form-input.component";
 import Button from "../button/button.component";
+
 import './signup-form.styles.scss';
 
 const defaultFormFields= {
@@ -18,6 +19,7 @@ const SignUpForm = () => {
 const [formFields, setFormFields] = useState(defaultFormFields);
 const {displayName, email, password, confirmPassword}= formFields;
 
+
 const resetFormFields = () => {
     setFormFields(defaultFormFields);
 }
@@ -29,8 +31,11 @@ const handleSubmit = async (event) => {
     if(password === confirmPassword){
         try{
         const {user} = await createAuthUserWithEmailAndPassword(email, password);
-        const userDocRef = await createUserDocumentFromAuth(user, {displayName});
+
+        await createUserDocumentFromAuth(user, {displayName});
+
         resetFormFields();
+
         }catch(error){
             if(error.code === "auth/email-already-in-use")
                 alert('This email already exists')
@@ -57,7 +62,7 @@ setFormFields({...formFields, [name]: value});
         <form onSubmit={handleSubmit}>
 
         <FormInput
-        label ='Display Name' 
+        label ='Full Name' 
         type='text' 
         required 
         onChange={handleChange} 
