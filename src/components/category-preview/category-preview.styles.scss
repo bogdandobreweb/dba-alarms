@@ -1,0 +1,22 @@
+.category-preview-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  
+    .title {
+      font-size: 28px;
+      margin-bottom: 50px;
+      cursor: pointer;
+    }
+  
+    .preview {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 20px;
+    }
+  }
+  

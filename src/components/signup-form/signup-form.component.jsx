@@ -3,7 +3,7 @@ import { useState } from "react";
 import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth } from "../../util/firebase/firebase.utils";
 
 import FormInput from "../input/form-input.component";
-import Button from "../button/button.component";
+import Button, {BUTTON_TYPE_CLASSES} from "../button/button.component";
 
 import './signup-form.styles.scss';
 
@@ -91,7 +91,7 @@ setFormFields({...formFields, [name]: value});
         onChange={handleChange} 
         name='confirmPassword' 
         value={confirmPassword}/>
-        <Button buttonType = 'inverted' type='submit'>Sign Up</Button>
+        <Button buttonType = {BUTTON_TYPE_CLASSES.inverted} type='submit'>Sign Up</Button>
         </form>
 
     </div>
