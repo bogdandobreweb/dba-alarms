@@ -20,5 +20,4 @@ export const CategoryContainer = styled.div`
     padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
-    background-color: #e7e6e6;
 `
