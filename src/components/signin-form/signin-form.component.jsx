@@ -15,7 +15,7 @@ const SignInForm = () => {
 
 
 const [formFields, setFormFields] = useState(defaultFormFields);
-const { email, password}= formFields;
+const { email, password }= formFields;
 
 
 const resetFormFields = () => {
@@ -70,7 +70,7 @@ setFormFields({...formFields, [name]: value});
         <FormInput
         label ='Password' 
         type='password' 
-        required 
+        required  
         onChange={handleChange} 
         name='password' 
         value={password}/>
